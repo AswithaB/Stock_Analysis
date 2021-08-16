@@ -315,14 +315,13 @@ Run-time for 2018 Stock Analysis using Refactored Code
 
 <img width="266" alt="RefactoredCode_RunTime_2018" src="https://user-images.githubusercontent.com/85645485/129618125-786761e6-e4a5-4844-86db-399ef38ca8df.png">
 
-## SUMMARY: Our Statement:
-
-### Deliverable with detail analysis:
+## SUMMARY:
+### Deliverable with detail analysis
 **1. What are the advantages or disadvantages of refactoring code?**
 
 You need to perform code refactoring in small steps. Make tiny changes in your program, each of the small changes makes your code slightly better and leaves the application in a working state.
 
-**Disadvantages:**
+**Disadvantages**
 
 > - A long procedure may contain the same line of code in several locations, you can change the logic to eliminate the duplicate lines.
 > - A logical structure may be duplicated in two or more procedures (possibly via copy & paste coding). When detected, this logic is best moved to a new function and called from the other functions.
@@ -330,7 +329,7 @@ You need to perform code refactoring in small steps. Make tiny changes in your p
 > - Refactoring process can affect the testing outcomes. 
 
 
-**Advantages:**
+**Advantages**
 > - Logical errors easily appear in well structure code that contains nested conditionals and loops. 
 > - In our case, using Excel flow displays program logic in a more comprehensible manner, not tied to the order that the underlying code is written.
 > - VBA interpretation (Excel) of code can reveal patterns that are not easy to see in the source.
