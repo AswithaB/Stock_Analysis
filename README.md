@@ -284,10 +284,14 @@ In order to make my code more efficient, I needed to switch the nesting order of
 ![Dataset examples provided](https://user-images.githubusercontent.com/85645485/129618121-73827285-978c-4384-b944-05a456c52ba4.PNG)
 
 #### Final VBA Analysis 2017
+
 <img width="490" alt="Calling_2017_dataset" src="https://user-images.githubusercontent.com/85645485/129618117-6a918aee-0fcf-440a-97a0-8ca9b30b6603.png">
+
 <img width="391" alt="VBA_StockAnalysis_2017" src="https://user-images.githubusercontent.com/85645485/129618108-dcb520d4-c18e-4582-968e-0b6f82bcaba9.png">
 
 #### Final VBA Analysis 2018
+
+<img width="489" alt="Calling_2018_dataset" src="https://user-images.githubusercontent.com/85645485/129618119-64ebc559-6c20-4f3e-8eb4-a387cfa30784.png">
 
 <img width="391" alt="VBA_StockAnalysis_2018" src="https://user-images.githubusercontent.com/85645485/129618113-1078c715-2619-4a81-b40d-e6640f2f9083.png">
 
@@ -311,3 +315,32 @@ Run-time for 2018 Stock Analysis using Refactored Code
 
 <img width="266" alt="RefactoredCode_RunTime_2018" src="https://user-images.githubusercontent.com/85645485/129618125-786761e6-e4a5-4844-86db-399ef38ca8df.png">
 
+## SUMMARY: Our Statement:
+
+### Deliverable with detail analysis:
+**1. What are the advantages or disadvantages of refactoring code?**
+
+You need to perform code refactoring in small steps. Make tiny changes in your program, each of the small changes makes your code slightly better and leaves the application in a working state.
+
+**Disadvantages:**
+
+> - A long procedure may contain the same line of code in several locations, you can change the logic to eliminate the duplicate lines.
+> - A logical structure may be duplicated in two or more procedures (possibly via copy & paste coding). When detected, this logic is best moved to a new function and called from the other functions.
+> - A complex unstructured code is usually best to split in several functions. 
+> - Refactoring process can affect the testing outcomes. 
+
+
+**Advantages:**
+> - Logical errors easily appear in well structure code that contains nested conditionals and loops. 
+> - In our case, using Excel flow displays program logic in a more comprehensible manner, not tied to the order that the underlying code is written.
+> - VBA interpretation (Excel) of code can reveal patterns that are not easy to see in the source.
+
+**2. How do these pros and cons apply to refactoring the original VBA script?**
+
+> Improving or updating the code without changing the software’s functionality or external behavior of the application is known as code refactoring.
+Now, let's think about something, **What happens after a couple of days or months yo need to troubleshoot your code? Is it complicated? Is it hard to understand?** If yes then definitely you didn’t pay attention to improve your code or to restructure your code. 
+
+***We need to consider the code refactoring process as cleaning up the orderly house.*** 
+*Unnecessary clutter in a home can create a chaotic and stressful environment.* - The same goes for written code. 
+
+A clean and well-organized code is always easy to change, easy to understand, and easy to maintain. You can avoid facing difficulty later if you pay attention to the code refactoring process earlier.
