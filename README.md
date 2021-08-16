@@ -288,6 +288,7 @@ In order to make my code more efficient, I needed to switch the nesting order of
 <img width="391" alt="VBA_StockAnalysis_2017" src="https://user-images.githubusercontent.com/85645485/129618108-dcb520d4-c18e-4582-968e-0b6f82bcaba9.png">
 
 #### Final VBA Analysis 2018
+
 <img width="391" alt="VBA_StockAnalysis_2018" src="https://user-images.githubusercontent.com/85645485/129618113-1078c715-2619-4a81-b40d-e6640f2f9083.png">
 
 ### Run-time for Each Method and yearValue
@@ -295,11 +296,18 @@ In order to make my code more efficient, I needed to switch the nesting order of
 > Running our fully 2017 and 2018 data stock analysis gave us an elapsed run time for each year, below our results.
 
 Run-time for 2017 Stock Analysis using Original Code
+
 <img width="265" alt="OriginalCode_RunTime_2017" src="https://user-images.githubusercontent.com/85645485/129618122-8b518744-8960-4bec-b99d-c740cc90d759.png">
+
 Run-time for 2017 Stock Analysis using Refactored Code
+
 <img width="265" alt="RefactoredCode_RunTime_2017" src="https://user-images.githubusercontent.com/85645485/129618124-d41e493a-a3ba-47ae-88d2-80d2d240c9fc.png">
+
 Run-time for 2018 Stock Analysis using Original Code
+
 <img width="266" alt="OriginalCode_RunTime_2018" src="https://user-images.githubusercontent.com/85645485/129618123-e87a8053-ced8-4049-b620-f670f853503f.png">
+
 Run-time for 2018 Stock Analysis using Refactored Code
+
 <img width="266" alt="RefactoredCode_RunTime_2018" src="https://user-images.githubusercontent.com/85645485/129618125-786761e6-e4a5-4844-86db-399ef38ca8df.png">
 
