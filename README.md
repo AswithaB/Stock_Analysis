@@ -297,7 +297,7 @@ In order to make my code more efficient, I needed to switch the nesting order of
 
 ### Run-time for Each Method and yearValue
 
-> Running our fully 2017 and 2018 data stock analysis gave us an elapsed run time for each year, below our results.
+> Running our fully 2017 and 2018 data stock analysis gave us an elapsed run time for each year, below are our results.
 
 Run-time for 2017 Stock Analysis using Original Code
 
